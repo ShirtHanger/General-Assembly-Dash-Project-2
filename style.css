@@ -1,0 +1,81 @@
+header {
+    text-align: center;
+    background: url('https://i.imgur.com/EinDRzz.jpeg');
+    background-size: cover;
+    color: white;
+  }
+
+a {
+    color: blue;
+  }
+
+h1 {
+  font-size: 70px;
+  color: yellow;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+h4 {
+  font-size: 15px;
+  color: yellow;
+  background: rgba(0, 0, 0, 0.5)
+}
+
+img {
+    margin: 40px 0px 0px 0px;
+    border: 10px solid black;
+    border-radius: 200px;
+  }
+
+body {
+    background: url("https://i.pinimg.com/originals/46/67/3f/46673f6cd869da3f851259881757ffbf.jpg");
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-position: center;
+    font-family: roman;
+  }
+
+ul {
+    padding: 10px;
+    background: rgba(251, 192, 147, 0.5);
+  }
+
+li {
+  display: inline;
+    padding: 0px 10px 0px 10px;
+  }
+
+article {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+figcaption {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.responsive { /* Makes images responsive*/
+    max-width: 100%;
+    height: auto;
+    border: 7px inset blue;
+    border-radius: 20px;
+  } 
+
+#works-cited {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
